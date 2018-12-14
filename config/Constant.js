@@ -8,15 +8,15 @@ module.exports = {
   "LOGGER": {
     "DIR_PATH":   `${appRoot}/storage/logs/`,
     "LOG_CHANNEL": process.env.LOG_CHANNEL || "single",
-    "FILE_NAME":   (process.env.LOG_CHANNEL=='daily')? `${appRoot}/storage/logs/kiple-` +day+`-`+month +`-`+year+`.log` : `${appRoot}/storage/logs/kiple.log`
+    "FILE_NAME":   (process.env.LOG_CHANNEL=='daily')? `${appRoot}/storage/logs/applog-` +day+`-`+month +`-`+year+`.log` : `${appRoot}/storage/logs/applog.log`
   },
   "IDENTITY": {
-    "JWT_ISSUER": process.env.JWT_ISSUER || "accounts.dhome.io",
+    "JWT_ISSUER": process.env.JWT_ISSUER || "accounts.ums",
     "JWT_SECRET": process.env.JWT_SECRET || "verysecretivesecret",
-    "CHALLENGE_SECRET": process.env.CHALLENGE_SECRET || "kzdqfTDP7j6PBqnz4awSUf8A",
-    "CHALLENGE_SALT": process.env.CHALLENGE_SALT || "yY6pImsu4yZsdoYawn6jqizC",
+    "CHALLENGE_SECRET": process.env.CHALLENGE_SECRET || "kzdqfTDP7j6PBqnz4awSUf8Adfsad",
+    "CHALLENGE_SALT": process.env.CHALLENGE_SALT || "yY6pImsu4yZsdoYawn6jqizCcxz",
   },
-  "APP_NAME":  process.env.APP_NAME || "kiple-home-backend",
+  "APP_NAME":  process.env.APP_NAME || "ums",
   "APP_ENV":   process.env.APP_ENV || "local",
   "APP_DEBUG": process.env.APP_DEBUG || "true",
   "APP_KEY":   process.env.APP_KEY || "5Syw49JVgmCDrGv5QBDbxtDvpTR2XxkF36Vr4EMVkvDVecJX",
