@@ -1,0 +1,6 @@
+{"message":"user controller || create user ","level":"info"}
+{"message":"::1 - - [10/Dec/2018:03:40:14 +0000] \"POST /users HTTP/1.1\" 401 71 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info"}
+{"message":"user controller || create user ","level":"info"}
+{"message":"::1 - - [10/Dec/2018:03:40:33 +0000] \"POST /users HTTP/1.1\" 401 71 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info"}
+{"message":"user controller || create user ","level":"info"}
+{"message":"::1 - - [10/Dec/2018:03:40:42 +0000] \"POST /users HTTP/1.1\" 401 71 \"-\" \"PostmanRuntime/7.4.0\"\n","level":"info"}
